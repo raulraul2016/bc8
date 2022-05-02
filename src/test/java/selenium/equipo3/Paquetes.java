@@ -80,10 +80,10 @@ public class Paquetes {
 
         WebElement webElementFechaVuelta = driver.findElement(localizadorFechaVuelta);
         webElementFechaIda.click();
-        WebElement webElementSeleccionarFechaVuelta = driver.findElement(localizadorVuelta);
-        webElementSeleccionarFechaIda.click();
-        WebElement webElementDiaSelecionado = driver.findElement(localizadorDiaSeleccionado);
-        webElementDiaSelecionado.click();
+        //WebElement webElementSeleccionarFechaVuelta = driver.findElement(localizadorVuelta);
+        //webElementSeleccionarFechaIda.click();
+        //WebElement webElementDiaSelecionado = driver.findElement(localizadorDiaSeleccionado);
+        //webElementDiaSelecionado.click();
 
 
 

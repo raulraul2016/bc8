@@ -1,6 +1,5 @@
 package selenium.equipo3;
 import io.github.bonigarcia.wdm.WebDriverManager;
-//import javafx.scene.control.Tab;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -25,8 +24,10 @@ public class AlojamientoNuevo {
     By fechasIda = By.xpath("//input[@class=\"input-tag sbox-checkin-date\"]");
     By fechasVuelta = By.xpath("//input[@class=\"input-tag sbox-checkout-date\"]");
     By botonMesSiguiente = By.xpath("(//i[@class=\"_dpmg2--icon-ico-arrow\"])[2]");
-    By MonthActive = By.xpath("//div[@class=\"_dpmg2--month _dpmg2--o-5 _dpmg2--month-active\"]");
+    By MonthActive = By.xpath("//div[@class=\"_dpmg2--month _dpmg2--o-7 _dpmg2--month-active\"]");
+                                //div[@class="_dpmg2--month _dpmg2--o-7 _dpmg2--month-active"]
     By MonthActiveRange = By.xpath("//div[contains(@class, \"_dpmg2--has-start-range\")]");
+
     By botonAplicarFechas = By.xpath("//button[@class=\"_dpmg2--desktopFooter-button _dpmg2--desktopFooter-button-apply sbox-3-btn -lg -primary\"]");
     By botonBuscar = By.xpath("//div[@class=\"sbox-button-container\"]");
     //TC16
@@ -243,18 +244,12 @@ public class AlojamientoNuevo {
         espera.until(ExpectedConditions.elementToBeClickable(verHabitaciones));
         WebElement todosLosServicios = driver.findElement(verHabitaciones);
         todosLosServicios.click();
-
-
     }
-
-
-
     @After
     public void close(){
         if (driver != null){
             driver.close();
         }
     }
-
 
 }

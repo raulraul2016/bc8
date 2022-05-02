@@ -1,4 +1,4 @@
-package selenium.rhende.equipo3;
+package selenium.equipo3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;

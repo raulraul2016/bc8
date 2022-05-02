@@ -1,4 +1,4 @@
-package selenium.rhende.equipo3;
+package selenium.equipo3;
 import io.github.bonigarcia.wdm.WebDriverManager;
 //import javafx.scene.control.Tab;
 import org.junit.After;
@@ -248,7 +248,7 @@ public class AlojamientoNuevo {
     }
 
 
-    /*
+
     @After
     public void close(){
         if (driver != null){
@@ -256,5 +256,5 @@ public class AlojamientoNuevo {
         }
     }
 
-     */
+
 }

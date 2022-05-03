@@ -18,7 +18,7 @@ public class ViajesFalabellaTest extends JunitBaseTest {
 
     @Test
     public void TC09(){
-
+/*
         viajesFalabellaTest = new ViajesFalabellaTest(driver);
         viajesFalabellaTest.botonAlojamiento();
         viajesFalabellaTest.BuscarDestino();
@@ -30,6 +30,6 @@ public class ViajesFalabellaTest extends JunitBaseTest {
         viajesFalabellaTest.MonthActiveRange();
         viajesFalabellaTest.botonAplicarFechas();
         viajesFalabellaTest.botonBuscar();
-
+*/
     }
 }

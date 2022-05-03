@@ -80,6 +80,7 @@ public class AlojamientoNuevo {
         espera.until(ExpectedConditions.elementToBeClickable(AutoCompletadoTc09));
         WebElement completado = driver.findElement(AutoCompletadoTc09);
         completado.click();
+
         WebElement fechaIda = driver.findElement(fechasIda);
         fechaIda.click();
         WebElement mesSiguiente = driver.findElement(botonMesSiguiente);

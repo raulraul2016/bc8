@@ -1,6 +1,9 @@
 package pom.equipo3.base;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6a4e382bbbde9368c8a8464a85d45a4d0e4b464b
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,12 +25,15 @@ public class SeleniumBasePage {
      * @return WebElement
      */
     public WebElement findElement(By locator){
+<<<<<<< HEAD
 
         return driver.findElement(locator);
 
     }
     public WebElement finWebElement(By locator){
 
+=======
+>>>>>>> 6a4e382bbbde9368c8a8464a85d45a4d0e4b464b
         return driver.findElement(locator);
     }
 
@@ -97,6 +103,10 @@ public class SeleniumBasePage {
     public String getTitle(){
         return driver.getTitle();
     }
+<<<<<<< HEAD
 
 }
 
+=======
+}
+>>>>>>> 6a4e382bbbde9368c8a8464a85d45a4d0e4b464b

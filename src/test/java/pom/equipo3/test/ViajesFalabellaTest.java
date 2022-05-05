@@ -1,5 +1,6 @@
 package pom.equipo3.test;
 
+<<<<<<< HEAD
 //package pom.equipoX.test;
 
 import org.junit.Test;
@@ -31,5 +32,25 @@ public class ViajesFalabellaTest extends JunitBaseTest {
         viajesFalabellaTest.botonAplicarFechas();
         viajesFalabellaTest.botonBuscar();
 */
+=======
+import org.junit.Test;
+import pom.equipo3.base.JunitBaseTest;
+import pom.equipo3.pages.ViajesFalabellaHomePage;
+
+public class ViajesFalabellaTest extends JunitBaseTest {
+
+    ViajesFalabellaHomePage viajesFalabellaHomePage;
+
+    @Test
+    public void busquedaAlojamiento(){
+        viajesFalabellaHomePage = new ViajesFalabellaHomePage(driver);
+        viajesFalabellaHomePage.irAHomePage();
+        viajesFalabellaHomePage.btnCookies();
+        viajesFalabellaHomePage.btnAlojamiento();
+        viajesFalabellaHomePage.buscarDestino("Rio de");
+        viajesFalabellaHomePage.autoCompletado();
+        viajesFalabellaHomePage.sinFechasDefinidas();
+        viajesFalabellaHomePage.btnBuscar();
+>>>>>>> 6a4e382bbbde9368c8a8464a85d45a4d0e4b464b
     }
 }
